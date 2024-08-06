@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+    
+        background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
+                    url("/assets/images/IMG_6651.PNG");
+        background-size: cover;
+        background-position: up center;
+    
+}
+
+header {
+    background-color: #f02c81;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: Garamond;
+    font-size: 18px;
+}
+
+nav {
+    background-color: #e69ad7;
+    overflow: hidden;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #ffffff;
+}
+
+.content-section {
+    display: none;
+    padding: 20px;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.parallax {
+    position: relative;
+    height: 500px;
+    background-image: url('/assets/images/WhatsApp\ Image\ 2024-08-06\ at\ 16.57.01_0811431b.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .fade-in {
+    opacity: 0;
+    transition: opacity 3s ease-in-out;
+  }
+  
+  .fade-in.visible {
+    opacity: 70;
+  }
+.photo {
+    background-color: rgb(241, 62, 220);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 30%;
+}
+
+.photo img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+.button {
+    background-color: #6200ea;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    transition: transform 0.2s;
+  }
+  
+  .button:hover {
+    transform: scale(1.1);
+  }
+footer {
+    background-color: #dfa9d4;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+html {
+    scroll-behavior: smooth;
+  }
