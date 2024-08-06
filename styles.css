@@ -6,7 +6,7 @@ body {
     color: #333;
     
         background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
-                    url("/assets/images/IMG_6651.PNG");
+                    url("IMG_6651.PNG");
         background-size: cover;
         background-position: up center;
     
@@ -73,7 +73,7 @@ ul {
 .parallax {
     position: relative;
     height: 500px;
-    background-image: url('/assets/images/WhatsApp\ Image\ 2024-08-06\ at\ 16.57.01_0811431b.jpg');
+    background-image: url('WhatsApp\ Image\ 2024-08-06\ at\ 16.57.01_0811431b.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
